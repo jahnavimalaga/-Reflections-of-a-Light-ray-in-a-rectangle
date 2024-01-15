@@ -1,1 +1,1 @@
-This is code will give the no of reflections of a Light ray when it enters a rectangle from a small hole
+This code calculates the number of reflections of a light ray when it enters a rectangle through a small hole.
