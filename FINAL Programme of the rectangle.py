@@ -2,19 +2,19 @@
 """
 Created on Sun Nov 13 14:14:31 2016
 
-@author: Home
+@author: Jahnavi Malagavalli
 """
-#Programme : Time taken by the incident ray to come out of the rectangele 
+#Programme: Time taken by the incident ray to come out of the rectangle 
 #Hole is located on the line x=a
 import pylab as p
 a=20 #a : length of the rectangle
 b=10 #b : breadth of the rectangle
 w=5
-d=input('coordinate of the mid point with commas on x=a:')
+d=input('coordinate of the midpoint with commas on x=a:')
 m=1
 h=float(d[0])
 k=float(d[1])
- #h : x_coordinate of the mid point
+ #h : x_coordinate of the midpoint
 #m =float(input('enter the slope :'))#m : slope of the incident ray with x-axis
 x=0
 y=0
@@ -128,7 +128,7 @@ else:
     for i in range(len(l1)-1):
         d=d+p.sqrt(((l1[i]-l1[i+1])**2)+((l2[i]-l2[i+1])**2) )
         print d
-    print 'the distance travelled by the light ray is : ',d
+    print 'the distance traveled by the light ray is : ',d
     time=d/(3.0*(10**8))
     print 'The time taken for the light ray to come out is : ',time
     
